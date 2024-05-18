@@ -5,4 +5,4 @@ const router = express.Router()
 
 router.post('/', handleGenerateNewShortUrl)
 
-export {router}
+export default router

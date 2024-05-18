@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid'
-import URL from '../models/url'
+import URL from '../models/url.js'
 
 async function handleGenerateNewShortUrl(req, res) {
   const body = req.body
